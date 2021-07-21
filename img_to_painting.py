@@ -6,7 +6,7 @@ def read_file(filename):
    img = cv2.imread(filename)
    return img
 
-filename = 'test.jpg'
+filename = 'test.jpg'            #give the path of the image name, in my case it is test.jpg
 img = read_file(filename)
 
 def edge_mask(img, line_size, blur_value):
